@@ -1,4 +1,4 @@
-# Assignment 6: jQuery Portfolio
+# Assignment 6
 
 **Name:** Tamerlan Iskakov  
 **Group:** IT-2504
