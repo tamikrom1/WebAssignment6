@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 6</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <!--Part 1-->
+    <section id="part1">
+        <h1 id="portfolio-title">Welcome to My Portfolio</h1>
+        <h2 id="my-name">Tamerlan Iskakov</h2>
+        <h3 id="headline" class="intro-text">Computer Science Student</h3>
+        <p>Dynamic greeting will appear here.</p>
+        
+        <button id="light-btn">Light Theme</button>
+        <button id="dark-btn">Dark Theme</button>
+        <button id="update-greeting-btn">Update Greeting</button>
+    </section>
+
+    <!--Part 2-->
+    <section id="part2">
+        <h2>About Me</h2>
+        <p id="bio">I am a second-year CS student at Astana IT University.</p>
+        <div id="status-box">
+            <span>Status: Currently learning jQuery!</span>
+            <ul>
+                <li>I play video games</li>
+                <li>I play basketball</li>
+                <li>I learn coding</li>
+            </ul>
+        </div>
+        <button id="hide-btn">Hide Info</button>
+        <button id="show-btn">Show Info</button>
+        <button id="toggle-btn">Toggle Info</button>
+
+        <h3>Gallery</h3>
+        <div class="gallery">
+            <img src="https://play-lh.googleusercontent.com/Jby3jf0ExVworsqvdzoA5MXwKqE0uM77AyfAqT-x9JNvLtbkCE1UcNN7DdNKa5bM9gOZtQ2mTscRylGngF1x5g" alt="Hobby" id="img1">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9NctAoPgXa682facCsKJijhvi8MB4jk-PQlhZqy-qca90p5rYyoMuKDs&s=10" alt="Travel" id="img2">
+        </div>
+        <button id="fade-out-btn">Fade Out</button>
+        <button id="fade-in-btn">Fade In</button>
+        <button id="fade-toggle-btn">Fade Toggle</button>
+
+        <h3>Favorites</h3>
+        <h4 class="heading-btn">My Favorite Music</h4>
+        <div class="panel">Stronger - Kanye West</div>
+        
+        <h4 class="heading-btn">My Favorite Game</h4>
+        <div class="panel">Total War Warhammer</div>
+        
+        <h4 class="heading-btn">My Favorite Subject</h4>
+        <div class="panel">Calculus</div>
+    </section>
+
+    <!--Part 3-->
+    <section id="part3">
+        <h2>Technical Skills</h2>
+        <ul id="skill-list">
+            <li>HTML</li>
+            <li>Python</li>
+            <li>PostgreSQL</li>
+            <li>JavaScript</li>
+        </ul>
+        <input type="text" id="new-skill" placeholder="Enter a new skill...">
+        <br>
+        <button id="add-skill">Add Skill</button>
+        <button id="prepend-skill">Prepend Skill</button>
+        <button id="remove-skill">Remove Last Skill</button>
+
+        <h3>Links & Attributes</h3>
+        <a id="social-link" href="https://github.com/tamikrom1" target="_blank">My GitHub</a>
+        <br>
+        <button id="change-link-btn">Change to LinkedIn</button>
+
+        <h3>Form Interaction</h3>
+        <form id="contact-form">
+            <input type="text" id="form-name" placeholder="Your Name"><br>
+            <input type="email" id="form-email" placeholder="Your Email">
+        </form>
+        <p><strong>Live Preview:</strong> <span id="live-preview"></span></p>
+    </section>
+
+    <!--Part 4-->
+    <section id="part4">
+        <h2>Skill Levels</h2>
+        <div class="skill-bar-container"><div class="skill-bar" id="skill1" data-target="90%">Python (90%)</div></div>
+        <div class="skill-bar-container"><div class="skill-bar" id="skill2" data-target="75%">HTML (75%)</div></div>
+        <div class="skill-bar-container"><div class="skill-bar" id="skill3" data-target="50%">JavaScript (50%)</div></div>
+        
+        <button id="animate-skills">Animate My Skills</button>
+    </section>
+</body>
+</html>
